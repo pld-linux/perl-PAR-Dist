@@ -7,7 +7,7 @@
 %define	pnam	Dist
 Summary:	PAR::Dist - create and manipulate PAR distributions
 Summary(pl):	PAR::Dist - tworzenie i manipulacja dystrybucjami PAR
-Name:		perl-%{pdir}-%{pnam}
+Name:		perl-PAR-Dist
 Version:	0.07
 Release:	2
 # same as perl
