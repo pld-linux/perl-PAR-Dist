@@ -31,11 +31,11 @@ will also contain a SIGNATURE file.
 
 %description -l pl
 Ten modu³ tworzy i manipuluje dystrybucjami PAR. S± one zale¿nymi od
-architektury plikami PAR zawieraj±cymi wszysto to, co znajduje siê w
-katalogu blib/ dystrybucji CPAN po wykonaniu etapu "make" lub "Build",
-plik META.yml opisuj±cy metadane pierwotnej dystrybucji CPAN oraz plik
-MANIFEST zawieraj±cy listê plików. Podpisane cyfrowo dystrybucje PAR
-zawieraj± dodatkowo plik SIGNATURE.
+architektury plikami PAR. Zawieraj± wszystko to, co znajduje siê
+w katalogu blib/ dystrybucji CPAN po wykonaniu etapu "make" lub
+"Build", plik META.yml opisuj±cy metadane pierwotnej dystrybucji CPAN
+oraz plik MANIFEST zawieraj±cy listê plików. Podpisane cyfrowo
+dystrybucje PAR zawieraj± dodatkowo plik SIGNATURE.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
