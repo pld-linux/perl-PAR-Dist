@@ -5,8 +5,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	PAR
 %define	pnam	Dist
-Summary:	Create and manipulate PAR distributions
-Summary(pl):	Tworzenie i manipulacja dystrybucjami PAR
+Summary:	PAR::Dist - create and manipulate PAR distributions
+Summary(pl):	PAR::Dist - tworzenie i manipulacja dystrybucjami PAR
 Name:		perl-%{pdir}-%{pnam}
 Version:	0.07
 Release:	1
