@@ -44,6 +44,7 @@ dystrybucje PAR zawieraj± dodatkowo plik SIGNATURE.
 %{__perl} Makefile.PL \
 	INSTALLDIRS=vendor
 %{__make}
+
 %{?with_tests:%{__make} test}
 
 %install
