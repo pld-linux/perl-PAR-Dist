@@ -6,10 +6,12 @@
 %define	pdir	PAR
 %define	pnam	Dist
 Summary:	Create and manipulate PAR distributions
+Summary(pl):	Tworzenie i manipulacja dystrybucjami PAR
 Name:		perl-%{pdir}-%{pnam}
 Version:	0.05
 Release:	1
-License:	Same as Perl itself
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	899b3dd6118ab71eec416d65dfcdc113
@@ -20,12 +22,20 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-This module creates and manipulates PAR distributions.  They are archi-
-tecture-specific PAR files, containing everything under blib/ of CPAN
-distributions after their "make" or "Build" stage, a META.yml describ-
-ing metadata of the original CPAN distribution, and a MANIFEST detail-
-ing all files within it.  Digitally signed PAR distributions will also
-contain a SIGNATURE file.
+This module creates and manipulates PAR distributions.  They are
+architecture-specific PAR files, containing everything under blib/ of
+CPAN distributions after their "make" or "Build" stage, a META.yml
+describing metadata of the original CPAN distribution, and a MANIFEST
+detailing all files within it.  Digitally signed PAR distributions
+will also contain a SIGNATURE file.
+
+%description -l pl
+Ten modu³ tworzy i manipuluje dystrybucjami PAR. S± one zale¿nymi od
+architektury plikami PAR zawieraj±cymi wszysto to, co znajduje siê w
+katalogu blib/ dystrybucji CPAN po wykonaniu etapu "make" lub "Build",
+plik META.yml opisuj±cy metadane pierwotnej dystrybucji CPAN oraz plik
+MANIFEST zawieraj±cy listê plików. Podpisane cyfrowo dystrybucje PAR
+zawieraj± dodatkowo plik SIGNATURE.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
