@@ -3,8 +3,8 @@
 %bcond_without	test # do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	PAR
-%define	pnam	Dist
+%define		pdir	PAR
+%define		pnam	Dist
 Summary:	PAR::Dist - create and manipulate PAR distributions
 Summary(pl):	PAR::Dist - tworzenie i manipulacja dystrybucjami PAR
 Name:		perl-PAR-Dist
