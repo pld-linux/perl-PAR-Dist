@@ -6,7 +6,7 @@
 %define		pdir	PAR
 %define		pnam	Dist
 Summary:	PAR::Dist - create and manipulate PAR distributions
-Summary(pl):	PAR::Dist - tworzenie i manipulacja dystrybucjami PAR
+Summary(pl.UTF-8):   PAR::Dist - tworzenie i manipulacja dystrybucjami PAR
 Name:		perl-PAR-Dist
 Version:	0.07
 Release:	3
@@ -29,13 +29,13 @@ describing metadata of the original CPAN distribution, and a MANIFEST
 detailing all files within it.  Digitally signed PAR distributions
 will also contain a SIGNATURE file.
 
-%description -l pl
-Ten modu³ tworzy i manipuluje dystrybucjami PAR. S± one zale¿nymi od
-architektury plikami PAR. Zawieraj± wszystko to, co znajduje siê
+%description -l pl.UTF-8
+Ten moduÅ‚ tworzy i manipuluje dystrybucjami PAR. SÄ… one zaleÅ¼nymi od
+architektury plikami PAR. ZawierajÄ… wszystko to, co znajduje siÄ™
 w katalogu blib/ dystrybucji CPAN po wykonaniu etapu "make" lub
-"Build", plik META.yml opisuj±cy metadane pierwotnej dystrybucji CPAN
-oraz plik MANIFEST zawieraj±cy listê plików. Podpisane cyfrowo
-dystrybucje PAR zawieraj± dodatkowo plik SIGNATURE.
+"Build", plik META.yml opisujÄ…cy metadane pierwotnej dystrybucji CPAN
+oraz plik MANIFEST zawierajÄ…cy listÄ™ plikÃ³w. Podpisane cyfrowo
+dystrybucje PAR zawierajÄ… dodatkowo plik SIGNATURE.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
