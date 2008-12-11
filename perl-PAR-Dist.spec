@@ -8,13 +8,13 @@
 Summary:	PAR::Dist - create and manipulate PAR distributions
 Summary(pl.UTF-8):	PAR::Dist - tworzenie i manipulacja dystrybucjami PAR
 Name:		perl-PAR-Dist
-Version:	0.07
-Release:	4
+Version:	0.40
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	3f708ad631d1dfaf2a7600d941eae808
+# Source0-md5:	904832a892277849aef78d07a3f8d9d7
 URL:		http://par.perl.org
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
